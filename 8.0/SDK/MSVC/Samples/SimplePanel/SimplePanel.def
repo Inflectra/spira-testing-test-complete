@@ -1,0 +1,6 @@
+; SimplePanel.def : Declares the module parameters.
+
+LIBRARY      "SimplePanel.pls"
+
+EXPORTS
+	GetPluginRegistrator = _GetPluginRegistrator@4

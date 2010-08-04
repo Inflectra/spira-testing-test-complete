@@ -1,0 +1,17 @@
+// SimplePlugin.idl : IDL source for SimplePlugin
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SimplePlugin.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(05C21379-A2F1-44CD-87C5-B5032A926CDA),
+	version(1.0),
+	helpstring("SimplePlugin 1.0 Type Library")
+]
+library SimplePluginLib
+{
+};

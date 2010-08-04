@@ -1,0 +1,18 @@
+// SimpleProgramObject.idl : IDL source for SimpleProgramObject
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SimpleProgramObject.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(A0D1FF42-0AD3-4F90-8656-420A6A644CC5),
+	version(1.0),
+	helpstring("SimpleProgramObject 1.0 Type Library")
+]
+library SimpleProgramObjectLib
+{
+	importlib("stdole2.tlb");
+};

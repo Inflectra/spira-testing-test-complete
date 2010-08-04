@@ -1,0 +1,18 @@
+// SpiraTestCompletePlugIn.idl : IDL source for SpiraTestCompletePlugIn
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SpiraTestCompletePlugIn.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(79EDB22C-8B2F-47EC-A3C9-E838827202FC),
+	version(1.0),
+	helpstring("SpiraTestCompletePlugIn 1.0 Type Library")
+]
+library SpiraTestCompletePlugInLib
+{
+	importlib("stdole2.tlb");
+};

@@ -1,0 +1,11 @@
+; SpiraTestCompletePlugIn.def : Declares the module parameters.
+
+LIBRARY      "SpiraTestCompletePlugIn.pls"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall			PRIVATE
+    GetPluginRegistrator = _GetPluginRegistrator@4

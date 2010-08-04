@@ -1,0 +1,5 @@
+#include "resource.h"
+#include "winres.h"
+#include "version.rc"
+
+IDB_MY_PANEL     BITMAP   "res\\my_panel.bmp"

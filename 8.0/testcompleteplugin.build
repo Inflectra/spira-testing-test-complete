@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="TestComplete Plug-In" default="zipup">
+
+	<target name="zipup" description="Zips up the whole application for deployment">
+		<echo message="Zipping up entire application" />
+		<zip zipfile="TestComplete7PlugIn.zip" verbose="true" comment="SpiraTest Plug-In for TestComplete 7.0">
+			<fileset basedir="SpiraTestCompletePlugIn">
+				<include name="TestCompleteMappings.config" />
+			</fileset>
+			<fileset basedir="SpiraTestCompletePlugIn/Release">
+				<include name="SpiraTestCompletePlugIn.pls" />
+			</fileset>
+		</zip>
+	</target>
+	
+</project>
