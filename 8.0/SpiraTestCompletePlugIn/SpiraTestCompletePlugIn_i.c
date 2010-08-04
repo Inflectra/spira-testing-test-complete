@@ -6,7 +6,7 @@
 
 
  /* File created by MIDL compiler version 7.00.0500 */
-/* at Mon May 25 17:10:09 2009
+/* at Tue Aug 03 22:26:22 2010
  */
 /* Compiler settings for .\SpiraTestCompletePlugIn.idl:
     Oicf, W1, Zp8, env=Win32 (32b run)
