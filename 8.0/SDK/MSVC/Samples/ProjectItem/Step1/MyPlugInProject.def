@@ -1,7 +1,0 @@
-; MyPlugInProject.def : Declares the module parameters.
-
-LIBRARY      "MyPlugInProject.pls"
-
-EXPORTS
-	GetPluginRegistrator = _GetPluginRegistrator@4
-	

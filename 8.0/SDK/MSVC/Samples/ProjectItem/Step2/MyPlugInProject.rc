@@ -1,6 +1,0 @@
-#include "resource.h"
-#include "winres.h"
-#include "version.rc"
-
-IDB_SAMPLEITEM   BITMAP   "res\\sampleit.bmp"
-1                TYPELIB  "MyPlugInProject.tlb"

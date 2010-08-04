@@ -1,6 +1,0 @@
-; SimplePlugin.def : Declares the module parameters.
-
-LIBRARY      "SimplePlugin.pls"
-
-EXPORTS
-	GetPluginRegistrator = _GetPluginRegistrator@4

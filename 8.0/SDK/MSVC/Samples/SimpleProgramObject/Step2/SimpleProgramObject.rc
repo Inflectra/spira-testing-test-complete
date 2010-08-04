@@ -1,5 +1,0 @@
-#include "resource.h"
-#include "winres.h"
-#include "version.rc"
-
-1                TYPELIB  "SimpleProgramObject.tlb"

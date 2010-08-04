@@ -1,6 +1,0 @@
-; SimpleProgramObject.def : Declares the module parameters.
-
-LIBRARY      "SimpleProgramObject.pls"
-
-EXPORTS
-	GetPluginRegistrator = _GetPluginRegistrator@4
