@@ -43,7 +43,8 @@ const AQ_ACTION_PROPERTY apDDItemsList			= 300;  // An array of item captions.
 const AQ_ACTION_PROPERTY apDDImages                     = 301;  // An array of item images (HBITMAP values).
 const AQ_ACTION_PROPERTY apDDCategoryImage		= 302;  // HBITMAP. The handle of the image that is shown for "category" items.
 const AQ_ACTION_PROPERTY apDDCurrentItem     		= 303;  // Integer. The index of the currently selected item.
-const AQ_ACTION_PROPERTY apDDPropertyCount   		= 4;    // Helper constant. The number of specific properties of the DropDown action.
+const AQ_ACTION_PROPERTY apDDShowCaption                = 304;  // Boolean. Specifies whether the caption of the action will be shown on a toolbar
+const AQ_ACTION_PROPERTY apDDPropertyCount   		= 5;    // Helper constant. The number of specific properties of the DropDown action.
 
 
 // Identifiers of properties specific to MRUButton actions

@@ -44,6 +44,9 @@ using namespace std;
 	rename("PlaySound", "PlaySoundR"), \
 	rename("GetMessage", "GetMessageR")
 
+/* Was not able to generate some of the types dynamically so moved to a static .tlh file */
+#include "Reference\TestCompleteInternal.tlh"
+/*
 #import "Reference\TestCompleteInternal.tlb" \
 	raw_interfaces_only, raw_native_types, named_guids, no_namespace, \
 	exclude("PUINT_PTR", "tagPOINT", "IEnumUnknown", "_FILETIME", "AQ_PROPERTY_TYPE", "ITypeLib", "ITypeInfo"), \
@@ -51,6 +54,7 @@ using namespace std;
 	exclude("tagSAFEARRAYBOUND", "tagIDLDESC", "DWORD", "ITypeComp", "tagDESCKIND", "tagFUNCDESC", "tagELEMDESC"), \
 	exclude("tagPARAMDESC", "tagPARAMDESCEX", "tagFUNCKIND", "tagINVOKEKIND", "tagCALLCONV", "tagVARDESC"), \
 	exclude("__MIDL_IOleAutomationTypes_0006", "tagVARKIND", "tagTLIBATTR", "tagSYSKIND"), \
+	exclude("GetRefTypeInfo"), \
 	rename("GetUserName", "GetUserNameR"), \
 	rename("GetWindowsDirectory", "GetWindowsDirectoryR"), \
 	rename("GetSystemDirectory", "GetSystemDirectoryR"), \
@@ -80,7 +84,7 @@ using namespace std;
 	rename("VkKeyScanEx", "VkKeyScanExR"), \
 	rename("MapVirtualKeyEx", "MapVirtualKeyExR"), \
 	rename("DISPPARAMS", "tagDISPPARAMS"), \
-	rename("EXCEPINFO", "tagEXCEPINFO")
+	rename("EXCEPINFO", "tagEXCEPINFO")*/
 
 #include "SpiraTestExecute.h"
 using namespace SpiraTestExecuteService;

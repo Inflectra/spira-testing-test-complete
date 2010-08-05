@@ -196,6 +196,10 @@
 	extern "C" const GUID __declspec(selectany) c_SysNode_IsOpenApp             	= { 0xBC504B49, 0xB590, 0x4D80, { 0xB6, 0x90, 0x7F, 0xE7, 0x3B, 0xE0, 0x20, 0x3D } }; // Identifier of the IsOpenApp property. Result type - Boolean. This property is not visible in the Object Browser.
 	extern "C" const GUID __declspec(selectany) c_SysNode_DispatchExtender      	= { 0x15269134, 0xA358, 0x4D05, { 0xA7, 0x20, 0xC4, 0x2F, 0xCF, 0x11, 0xCB, 0xA0 } }; // Identifier of the DispatchExtender property. Result type - IDispatch.  This property is not visible in the Object Browser.
 	extern "C" const GUID __declspec(selectany) c_SysNode_CM_DispatchExtender		= { 0xCC8E49F1, 0x613D, 0x4413, { 0x95, 0x85, 0x31, 0xF7, 0x79, 0x3E, 0x02, 0xCF } }; // Identifier of the DispatchExtender property for the Compatibility Mode. Result type - IDispatch.  This property is not visible in the Object Browser.
+	extern "C" const GUID __declspec(selectany) c_SysNode_MonikerValue				= { 0xB8F23983, 0xABA8, 0x45A2, { 0x80, 0xA4, 0x06, 0xBF, 0x62, 0x7B, 0x16, 0x95 } }; // Identifier of the MonikerValue property. Result type - WideString or NULL if not implemented.  This property is not visible in the Object Browser.
+	extern "C" const GUID __declspec(selectany) c_SysNode_DefaultNameValue			= { 0xA0572AB9, 0xA386, 0x439B, { 0xAB, 0xF4, 0xD7, 0x9E, 0x3F, 0xC9, 0xD2, 0xAC } }; // Result type - WideString or NULL if not implemented.  This property is not visible in the Object Browser.
+	extern "C" const GUID __declspec(selectany) c_SysNode_VarNameValue				= { 0xD62EE99E, 0x90D2, 0x4F0B, { 0xB1, 0xF1, 0xD1, 0xCC, 0xA7, 0xBE, 0x25, 0xC8 } }; // Result type - WideString or NULL if not implemented.  This property is not visible in the Object Browser.
+
 
 
 
@@ -276,6 +280,13 @@
 
 
 	//--------------------------------------------------------------------------
+	// Tools | Options dialog.  Engines | Recording group.
+
+		extern "C" const GUID __declspec(selectany) c_settings_key_Recording_KeysInsteadOfSetText	= { 0xcc95dfe2, 0x922e, 0x4009, { 0x87, 0x86, 0x5d, 0xb9, 0x44, 0x6f, 0x97, 0x9d } }; // The "Record Keys method call instead of SetText for text editors" option
+		extern "C" const GUID __declspec(selectany) c_settings_key_Recording_TestedAppOnlyKey		= { 0xC7D75232, 0x9874, 0x40d2, { 0x85, 0x5B, 0xF3, 0xE7, 0x0D, 0x44, 0xCD, 0x1E } }; // The "Record user actions over tested applications only" option
+
+
+	//--------------------------------------------------------------------------
 	// Log settings.
 
 		// In Playback settings 
@@ -308,8 +319,6 @@
 	extern "C" const GUID __declspec(selectany) CUSTOM_TYPE_ATTRIB_GUID = { 0x50ED4A33, 0x7B9F, 0x4f2d, { 0xB1, 0x0A, 0x8B, 0xEF, 0xBA, 0x68, 0x90, 0x65 } };
 	extern "C" const GUID __declspec(selectany) CUSTOM_DIMENSION_ATTRIB_GUID = { 0xD4E930AD, 0x586E, 0x4cc1, { 0xAD, 0x81, 0x3E, 0xC9, 0x57, 0xBA, 0x75, 0x90 } };
 	extern "C" const GUID __declspec(selectany) CUSTOM_SEPARATOR_ATTRIB_GUID = { 0xB36E9B61, 0x80FB, 0x4352, { 0xA2, 0x0B, 0xF2, 0x57, 0x79, 0x3B, 0x5B, 0x0E } };
-	extern "C" const GUID __declspec(selectany) CUSTOM_TC3COMP_ATTRIB_GUID = { 0x29DB324A, 0x965B, 0x4fe6, { 0x88, 0xF1, 0x60, 0xD6, 0xD6, 0x7E, 0xA8, 0xAA } };
-	#define CUSTOM_TC3COMP_ATTRIB_VALUE (L"TC3"); 
 	extern "C" const GUID __declspec(selectany) DEFAULT_METHOD_GUID = { 0xDC4C6381, 0xD9D5, 0x49cb, { 0x96, 0xC2, 0xFC, 0x22, 0x01, 0xCB, 0xC3, 0x1A } };
 
 

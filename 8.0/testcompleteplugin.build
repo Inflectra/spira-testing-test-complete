@@ -3,7 +3,7 @@
 
 	<target name="zipup" description="Zips up the whole application for deployment">
 		<echo message="Zipping up entire application" />
-		<zip zipfile="TestComplete7PlugIn.zip" verbose="true" comment="SpiraTest Plug-In for TestComplete 7.0">
+		<zip zipfile="TestComplete8PlugIn.zip" verbose="true" comment="SpiraTest Plug-In for TestComplete 8.0">
 			<fileset basedir="SpiraTestCompletePlugIn">
 				<include name="TestCompleteMappings.config" />
 			</fileset>
